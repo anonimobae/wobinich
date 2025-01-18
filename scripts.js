@@ -1,5 +1,5 @@
 const codes = ["teste", "xbox360", "cruzeiro", "mariaclara", "code5", "code6", "code7"];
-const pages = ["1 início.html", "2 teste.html", "3 xbox360.html", "4 cruzeiro.html", "5 mariaclara.html", "pagina6.html", "pagina7.html"];
+const pages = ["index.html", "2 teste.html", "3 xbox360.html", "4 cruzeiro.html", "5 mariaclara.html", "pagina6.html", "pagina7.html"];
 
 function validateCode(currentPage) {
     const input = document.getElementById("code-input").value;
