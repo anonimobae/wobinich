@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 1</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <h1>Onde está o Samuel?</h1>
+    <h2>baixe o pdf</h2>
+    <form onsubmit="event.preventDefault(); validateCode('1 início.html');">
+        <input type="text" id="code-input" placeholder="Digite o código" required>
+        <button type="submit">Enviar</button>
+    </form>
+    <a href="Nível 1.pdf" class="download-btn" download>Baixar PDF</a>
+</body>
+</html>
